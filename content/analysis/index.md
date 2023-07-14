@@ -1,7 +1,7 @@
 ---
 Title: Analysis
 Description: This is our index page.
-template: Analysis
+template: analysis
 ---
 
 <div class="analysis-box analysis">

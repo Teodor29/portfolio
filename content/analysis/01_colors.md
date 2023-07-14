@@ -64,7 +64,7 @@ Resultat
 Analys
 -----------------------
 
-Twitter använder sig av ett monokromatiskt färgschema. Jag använder mig utav dämpat läge som har två nyanser av mörk-blå/grå som bakgrundsfärg och ett par nyanser av blå till knappar och symboler. Twitter förknippas starkt med deras blåa färg som används i loggan och slitit som accentfärg på hela hemsidan. 
+Twitter har ett monokromatiskt färgschema. Jag använder mig utav dämpat läge som har två nyanser av mörk-blå/grå som bakgrundsfärg och ett par nyanser av blå till knappar och symboler. Twitter förknippas starkt med deras blåa färg som används i loggan och som accentfärg på hela hemsidan. 
 
 Avanza består i stort sett av ett monokromatiskt färgschema. Det är två nyanser av vitt som bakgrundsfärger och en mängd olika nyanser av grönt används som accentfärg på hela sidan. Men komplementfärger används i form av blå för vinst/köp och röd för förlust/sälj. Grönt är en passande färg då det förknippas med vinst och är en positiv färg. 
 
