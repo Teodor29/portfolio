@@ -68,7 +68,7 @@ Twitter använder sig av ett monokromatiskt färgschema. Jag använder mig utav 
 
 Avanza består i stort sett av ett monokromatiskt färgschema. Det är två nyanser av vitt som bakgrundsfärger och en mängd olika nyanser av grönt används som accentfärg på hela sidan. Men komplementfärger används i form av blå för vinst/köp och röd för förlust/sälj. Grönt är en passande färg då det förknippas med vinst och är en positiv färg. 
 
-Svt nyheter har ett monokromatiskt frågeschema. Det är två nyanser av vitt som bakgrundsfärger och rött som accentfärg. Färgen röd kan förknippas med nyheter och är väldigt vanlig bland andra populära nyhetsmedier som tex BBC, CNN, Sky news, Aftonbladet, Expressen m.m. 
+Svt nyheter har ett monokromatiskt färgeschema. Det är två nyanser av vitt som bakgrundsfärger och rött som accentfärg. Färgen röd kan förknippas med nyheter och är väldigt vanlig bland andra populära nyhetsmedier som tex BBC, CNN, Sky news, Aftonbladet, Expressen m.m. 
 
 Samtliga hemsidor använder sig utav sans-serif.
 
