@@ -70,7 +70,7 @@ Avanza består i stort sett av ett monokromatiskt färgschema. Det är två nyan
 
 Svt nyheter har ett monokromatiskt frågeschema. Det är två nyanser av vitt som bakgrundsfärger och rött som accentfärg. Färgen röd kan förknippas med nyheter och är väldigt vanlig bland andra populära nyhetsmedier som tex BBC, CNN, Sky news, Aftonbladet, Expressen m.m. 
 
-Samtliga hemsidor använder sig utav sans-serif..
+Samtliga hemsidor använder sig utav sans-serif.
 
 Referenser
 -----------------------
