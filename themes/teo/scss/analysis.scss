@@ -1,0 +1,127 @@
+.analysis-page {
+    display: grid;
+    grid-template-rows: 150px 300px 300px 300px;
+    background-color: $background-color;
+}
+
+.analysis-box {
+    margin: 1rem;
+    text-decoration: none;
+    color: $font-color;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.analysis-box h2 {
+    font-size: 30px;
+    padding-top: 0.5rem;
+    background-color: $background-alternative-color;
+}
+
+.analysis-box h1 {
+    font-size: 70px;
+    margin: 1rem;
+}
+
+.analysis-box a {
+    text-decoration: none;
+    color: $font-color;
+    display: block;
+}
+
+.analysis-box a:hover {
+    text-decoration: underline;
+}
+
+.analysis-box img {
+    width: 100%;
+}
+
+.analysis {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    background-color: $background-alternative-color;
+}
+
+.colors {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.load {
+    grid-column: 1 / -1;
+    grid-row: 3;
+}
+
+.design {
+    grid-column: 1 / -1;
+    grid-row: 4;
+}
+
+.color-container {
+    background-color: $background-alternative-color;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+
+    img {
+        border-radius: 1rem;
+    }
+}
+
+.color-container table {
+    margin: 1rem 0;
+
+    td {
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+    .analysis-page {
+        display: grid;
+        grid-template-rows: 100px 250px 250px 250px 250px 250px 250px 250px;
+    }
+
+    .analysis-box h1 {
+        font-size: 30px;
+    }
+
+    .css {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .html {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .js {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .php {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .python {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    
+    .git {
+        grid-column: 1;
+        grid-row: 7;
+    }
+    
+    .sql {
+        grid-column: 1;
+        grid-row: 8;
+    }
+}
+

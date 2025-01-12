@@ -1,0 +1,61 @@
+.technology-page {
+    display: grid;
+    grid-template-columns: 30% auto;
+    background-color: $background-color;
+    color: $font-color;
+}
+
+.technology-box {
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: $font-color;
+    border-radius: 10px;
+}
+
+
+.technology-box a:hover {
+    text-decoration: underline;
+    color: #40551e;
+}
+
+.technology-box h1 {
+    font-size: 80px;
+    margin: 1rem;
+}
+
+.technology-box a {
+    text-decoration: none;
+    color: $font-color;
+    display: block;
+}
+
+.list {
+    grid-column: 1 / 1;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 2rem;
+}
+
+.content {
+    grid-column: 2 / 2;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .technology-page {
+        grid-template-columns: 90%;
+        background-color: $background-color;
+    }
+
+    .list {
+        grid-row: 1;
+    }
+
+    .content {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+}

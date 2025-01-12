@@ -1,0 +1,130 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+
+@import 'normalize';
+
+@import 'technology';
+@import 'technologies';
+
+@import 'analysis';
+
+@import 'gallery';
+
+// Under mina övriga imports
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body {
+    background-color: $background-color;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1rem;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-alternative-color;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+.header a {
+    color: $font-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.site-header {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.site-header .title {
+    h1,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.logo {
+    img {
+        width: 70px;
+    }
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $font-color;
+    background-color: $background-alternative-color;
+    padding: 2em;
+    flex-shrink: 0;
+}
+
+.footer a {
+    color: $font-color;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
