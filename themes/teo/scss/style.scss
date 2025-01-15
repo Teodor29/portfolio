@@ -34,18 +34,13 @@ body {
 .main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem 2rem;
     flex: 1;
 }
 
 * {
     font-family: 'Lato', sans-serif;
-}
-
-h1 {
-    margin: 1rem;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    color: $font-color;
 }
 
 p {
@@ -58,13 +53,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 a {
     color: $link-color;
-    text-decoration: none;
 }
 
 iframe {
@@ -104,6 +97,10 @@ iframe {
     }
 }
 
+.article {
+    max-width: 600px;
+}
+
 .logo {
     img {
         width: 70px;
@@ -112,9 +109,9 @@ iframe {
 }
 
 .footer {
+    color: $font-color;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid $font-color;
     background-color: $background-alternative-color;
     padding: 2em;
     flex-shrink: 0;

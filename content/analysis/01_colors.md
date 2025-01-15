@@ -1,3 +1,9 @@
+---
+Title: Colors
+Description: colors
+template: analysis-content
+---
+
 Utverdering av webbplatsers färgval
 =======================
 
@@ -17,7 +23,7 @@ Jag använde mig utav colorzilla för att få fram färgkoderna och dev tools f�
 Resultat
 -----------------------
 <div class="color-container">
-<img style="width: 100%"src="%base_url%/assets/img/twitter.png">
+<img style="width: 100%"src="%base_url%/assets/img/twitter.png" alt="twitter">
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #15202b">
@@ -30,7 +36,7 @@ Resultat
 
 <p>TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif</p>
 
-<img style="width: 100%"src="%base_url%/assets/img/avanza.png">
+<img style="width: 100%"src="%base_url%/assets/img/avanza.png" alt="avanza">
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #222222">
@@ -46,7 +52,7 @@ Resultat
 
 <p>Roboto, Arial, sans-serif</p>
 
-<img style="width: 100%"src="%base_url%/assets/img/svt.png">
+<img style="width: 100%"src="%base_url%/assets/img/svt.png" alt="svt">
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #1B1B1B">

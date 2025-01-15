@@ -2,18 +2,17 @@
     <div class="site-header">
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
-            <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+            <a href="{{ base_url }}" aria-label="Home">
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="Site Logo" />
             </a>
         </div>
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
-            <a href="{{ base_url }}">
+            <a href="{{ base_url }}" aria-label="Home">
                 <h1>{{ site_title }}</h1>
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-
     </div>
     <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">

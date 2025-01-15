@@ -40,12 +40,17 @@ body {
 
 * {
     font-family: 'Lato', sans-serif;
+    color: $font-color;
 }
 
 h1 {
     margin: 1rem;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin: 1rem 0;
 }
 
 h1,
@@ -60,7 +65,11 @@ h6 {
 
 a {
     color: $link-color;
-    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    border: none;
 }
 
 .header {
@@ -103,9 +112,9 @@ a {
 }
 
 .footer {
+    color: $font-color;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid $font-color;
     background-color: $background-alternative-color;
     padding: 2em;
     flex-shrink: 0;

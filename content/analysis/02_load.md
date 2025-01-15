@@ -1,4 +1,8 @@
-
+---
+Title: Load
+Description: load
+template: analysis-content
+---
 
 # Utvärdera webbplatsers laddningstid och användbarhet
 
@@ -9,7 +13,7 @@ För att analysera prestanda valde jag **Ikea.se**, **SVT.se**, och **Skatteverk
 Analysen utfördes med hjälp av **Pagespeed**, som gav prestandabetyg för både mobil och desktop, **Chrome DevTools** som användes för att mäta laddningstid, antal resurser och total storlek för varje sida. Varje sida testades tre gånger för att få ett genomsnittligt värde av de uppmätta parametrarna. Rådata dokumenterades i ett Google Kalkylark.
 
 ## Resultat
-<iframe style="width: 100%; height: 705px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQyoc8HKWwI-9fygXI2QvIH0qdfwoHXzOkX0DEZkfH2Ycpz1S9byeBN72IdDvAyQOqPjmuJXH2IP7E/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="Load analysis" alt="google sheets" style="width: 100%; height: 705px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQyoc8HKWwI-9fygXI2QvIH0qdfwoHXzOkX0DEZkfH2Ycpz1S9byeBN72IdDvAyQOqPjmuJXH2IP7E/pubhtml?widget=true&amp;headers=false">Load analysis</iframe>
 
 ### IKEA
 ![ikea](../image/ikea.png?width=600)
