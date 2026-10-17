@@ -4,7 +4,7 @@ import { FaClipboard } from "react-icons/fa"
 import { FaClipboardCheck } from "react-icons/fa"
 import { email } from "../data/portfolioData"
 
-const MailButton = ({ size = 30 }) => {
+const MailButton = ({ size = 30, label }) => {
   const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
   const popupRef = useRef(null)
@@ -28,17 +28,18 @@ const MailButton = ({ size = 30 }) => {
   }, [])
 
   return (
-    <div ref={popupRef} className="relative inline-block">
+    <div ref={popupRef} className="inline-block">
       <button
         onClick={() => setOpen(!open)}
         aria-label="Email"
-        className="iconlink cursor-pointer"
+        className={`${label ? "footerlink" : "iconlink"} cursor-pointer`}
       >
         <IoMail size={size} />
+        {label}
       </button>
 
       {open && (
-        <div className=" absolute left-1/2 top-full -translate-x-1/2 mt-2 bg-surface shadow-lg rounded-xl p-3">
+        <div className="absolute left-0 top-full mt-2 z-10 bg-surface shadow-lg rounded-xl p-3">
           <div className="flex items-center ">
             <span className="">{email}</span>
             <button

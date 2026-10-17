@@ -54,13 +54,13 @@ const Header = () => {
           <a
             href="#contact"
             onClick={(e) => handleScroll(e, "contact")}
-            className="navlink hidden"
+            className="navlink"
           >
             CONTACT
           </a>
         </div>
       </div>
-      <div className="flex gap-3 md:gap-4 md:mt-auto">
+      <div className="relative flex gap-3 md:gap-4 md:mt-auto">
         <a
           href="https://github.com/Teodor29"
           target="_blank"

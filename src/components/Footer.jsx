@@ -1,11 +1,10 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa"
-import { IoMail } from "react-icons/io5"
 import MailButton from "./MailButton"
 
 const Footer = () => {
   return (
-    <section className="section hidden" id="contact">
-      <h2 className="section-heading">Contact me!</h2>
+    <section className="section" id="contact">
+      <h2 className="section-heading">CONTACT</h2>
       <div className="flex flex-col gap-2">
         <p>
           <a
@@ -29,6 +28,9 @@ const Footer = () => {
             GitHub
           </a>
         </p>
+        <div className="relative">
+          <MailButton size={16} label="Email" />
+        </div>
       </div>
     </section>
   )
