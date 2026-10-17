@@ -1,5 +1,3 @@
-import React from "react"
-
 const Skills = ({ skills }) => {
   return (
     <section id="skills" className="section">

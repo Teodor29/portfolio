@@ -1,6 +1,3 @@
-import { FaGithub } from "react-icons/fa"
-import { FiExternalLink } from "react-icons/fi"
-
 const ProjectCard = ({ project }) => {
   return (
     <a
