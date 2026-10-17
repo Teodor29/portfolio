@@ -1,9 +1,9 @@
-import Footer from './components/Footer'
-import Home from './components/Home'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import Header from './components/Header'
-import { skills, projects } from './data/portfolioData'
+import Footer from "./components/Footer"
+import Home from "./components/Home"
+import Projects from "./components/Projects"
+import Skills from "./components/Skills"
+import Header from "./components/Header"
+import { skills, projects } from "./data/portfolioData"
 
 function App() {
   return (

@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from 'react'
-import { IoMail } from 'react-icons/io5'
-import { FaClipboard } from 'react-icons/fa'
-import { FaClipboardCheck } from 'react-icons/fa'
-import { email } from '../data/portfolioData'
+import { useState, useEffect, useRef } from "react"
+import { IoMail } from "react-icons/io5"
+import { FaClipboard } from "react-icons/fa"
+import { FaClipboardCheck } from "react-icons/fa"
+import { email } from "../data/portfolioData"
 
 const MailButton = ({ size = 30 }) => {
   const [open, setOpen] = useState(false)
@@ -23,8 +23,8 @@ const MailButton = ({ size = 30 }) => {
       }
     }
 
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
 
   return (

@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --color-page: oklch(18% 0 0);
@@ -19,7 +19,7 @@
   --color-fg-link-hover: var(--color-accent-hover);
 
   --font-sans:
-    'Inter Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 @layer base {

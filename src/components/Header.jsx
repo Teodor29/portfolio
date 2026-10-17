@@ -1,16 +1,16 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import MailButton from './MailButton'
+import { FaGithub, FaLinkedin } from "react-icons/fa"
+import MailButton from "./MailButton"
 
 const Header = () => {
   const handleScroll = (e, id) => {
     e.preventDefault()
-    if (id === 'about') {
-      window.scrollTo({ top: 0, behavior: 'smooth' })
+    if (id === "about") {
+      window.scrollTo({ top: 0, behavior: "smooth" })
       return
     }
     document
       .getElementById(id)
-      ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      ?.scrollIntoView({ behavior: "smooth", block: "start" })
   }
 
   return (
@@ -20,7 +20,7 @@ const Header = () => {
           <h1 className="text-5xl font-bold">
             <a
               href="#about"
-              onClick={(e) => handleScroll(e, 'about')}
+              onClick={(e) => handleScroll(e, "about")}
               className="text-fg-heading"
             >
               Teodor Lien
@@ -32,28 +32,28 @@ const Header = () => {
         <div className="hidden md:flex gap-3 md:gap-0 md:flex-col md:mb-8">
           <a
             href="#about"
-            onClick={(e) => handleScroll(e, 'about')}
+            onClick={(e) => handleScroll(e, "about")}
             className="navlink hidden md:block"
           >
             ABOUT
           </a>
           <a
             href="#skills"
-            onClick={(e) => handleScroll(e, 'skills')}
+            onClick={(e) => handleScroll(e, "skills")}
             className="navlink"
           >
             SKILLS
           </a>
           <a
             href="#projects"
-            onClick={(e) => handleScroll(e, 'projects')}
+            onClick={(e) => handleScroll(e, "projects")}
             className="navlink"
           >
             PROJECTS
           </a>
           <a
             href="#contact"
-            onClick={(e) => handleScroll(e, 'contact')}
+            onClick={(e) => handleScroll(e, "contact")}
             className="navlink hidden"
           >
             CONTACT
