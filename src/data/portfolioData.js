@@ -1,6 +1,6 @@
-import adminDashboard from '../assets/admin-dashboard.png'
-import trainDelayMap from '../assets/train-delay-map.png'
-import slicr from '../assets/slicr.png'
+import adminDashboard from '../assets/admin-dashboard.webp'
+import trainDelayMap from '../assets/train-delay-map.webp'
+import slicr from '../assets/slicr.webp'
 
 export const email = 'teodor.lien@gmail.com'
 

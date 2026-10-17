@@ -12,6 +12,9 @@ const ProjectCard = ({ project }) => {
       <img
         src={project.image}
         alt={project.altText}
+        loading="lazy"
+        width="1200"
+        height="750"
         className="w-full object-cover rounded-lg mb-3"
       />
       <h3 className="mb-1">{project.title}</h3>

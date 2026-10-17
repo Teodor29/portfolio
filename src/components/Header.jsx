@@ -65,6 +65,7 @@ const Header = () => {
           href="https://github.com/Teodor29"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub"
           className="iconlink"
         >
           <FaGithub size={30} />
@@ -73,6 +74,7 @@ const Header = () => {
           href="https://www.linkedin.com/in/teodorlien"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="LinkedIn"
           className="iconlink"
         >
           <FaLinkedin size={30} />

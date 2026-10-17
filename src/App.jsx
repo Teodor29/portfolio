@@ -14,12 +14,12 @@ function App() {
             <Header />
           </div>
 
-          <div className="md:py-28">
+          <main className="md:py-28">
             <Home />
             <Skills skills={skills} />
             <Projects projects={projects} />
             <Footer />
-          </div>
+          </main>
         </div>
       </div>
     </div>

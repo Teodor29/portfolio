@@ -31,6 +31,7 @@ const MailButton = ({ size = 30 }) => {
     <div ref={popupRef} className="relative inline-block">
       <button
         onClick={() => setOpen(!open)}
+        aria-label="Email"
         className="iconlink cursor-pointer"
       >
         <IoMail size={size} />
@@ -42,6 +43,7 @@ const MailButton = ({ size = 30 }) => {
             <span className="">{email}</span>
             <button
               onClick={handleCopy}
+              aria-label="Copy Email"
               className=" text-fg p-1 ml-3 rounded-md hover:text-fg-muted cursor-pointer"
             >
               {copied ? (
