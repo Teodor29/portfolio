@@ -32,7 +32,7 @@ const MailButton = ({ size = 30, label }) => {
       <button
         onClick={() => setOpen(!open)}
         aria-label="Email"
-        className={`${label ? "footerlink" : "iconlink"} cursor-pointer`}
+        className="iconlink cursor-pointer"
       >
         <IoMail size={size} />
         {label}

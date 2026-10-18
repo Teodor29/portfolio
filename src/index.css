@@ -45,11 +45,11 @@
   }
 
   a {
-    @apply text-fg-link no-underline inline-flex items-center gap-1;
+    @apply inline-flex items-center gap-1;
   }
 
   a:hover {
-    @apply text-fg-link-hover;
+    @apply text-fg-link-hover underline;
   }
 }
 
@@ -79,10 +79,6 @@
   }
 
   .iconlink {
-    @apply text-fg hover:text-accent-hover no-underline flex items-center gap-2 transition-colors;
-  }
-
-  .footerlink {
-    @apply text-fg hover:text-accent-hover no-underline flex items-center gap-2 transition-colors;
+    @apply hover:text-accent-hover flex items-center gap-2 transition-colors;
   }
 }

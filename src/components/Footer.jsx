@@ -11,7 +11,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/teodorlien"
             target="_blank"
             rel="noopener noreferrer"
-            className="footerlink"
+            className="iconlink"
           >
             <FaLinkedin size={16} />
             LinkedIn
@@ -22,7 +22,7 @@ const Footer = () => {
             href="https://www.github.com/Teodor29"
             target="_blank"
             rel="noopener noreferrer"
-            className="footerlink"
+            className="iconlink"
           >
             <FaGithub size={16} />
             GitHub

@@ -34,6 +34,7 @@ export const projects = [
     altText: "Slicr Budget App",
     skills: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
     link: "https://slicr-budget-app.vercel.app/",
+    github: "https://github.com/Teodor29/slicr-budget-app",
   },
 
   {
@@ -44,6 +45,7 @@ export const projects = [
     altText: "Train Delay Map",
     skills: ["JavaScript", "SCSS", "WebSockets", "Leaflet"],
     link: "https://train-delay.vercel.app/",
+    github: "https://github.com/Teodor29/train-delay-map",
   },
   {
     title: "Scooter Rental System",
@@ -60,6 +62,6 @@ export const projects = [
       "Express.js",
       "MongoDB",
     ],
-    link: "https://github.com/Teodor29/scooter-rental-system",
+    github: "https://github.com/Teodor29/scooter-rental-system",
   },
 ]
