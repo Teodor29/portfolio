@@ -1,22 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --color-page: oklch(18% 0 0);
-  --color-surface: oklch(22% 0 0);
-  --color-elevated: oklch(26% 0 0);
-  --color-border: oklch(30% 0 0);
+  --color-page: oklch(18% 0.005 130);
+  --color-surface: oklch(22% 0.005 130);
+  --color-elevated: oklch(26% 0.005 130);
+  --color-border: oklch(30% 0.005 130);
 
   --color-accent: oklch(65% 0.1 130);
-  --color-accent-hover: oklch(55% 0.1 130);
-  --color-accent-text: oklch(75% 0.1 130);
-  --color-accent-subtle: oklch(25% 0.02 130);
+  --color-accent-hover: oklch(70% 0.1 130);
+  --color-accent-subtle: oklch(24% 0.02 130);
 
-  --color-fg: oklch(78% 0 0);
-  --color-fg-muted: oklch(65% 0 0);
-  --color-fg-heading: oklch(94% 0 0);
-
-  --color-fg-link: var(--color-accent);
-  --color-fg-link-hover: var(--color-accent-hover);
+  --color-fg: oklch(80% 0.005 130);
+  --color-fg-muted: oklch(65% 0.005 130);
+  --color-fg-heading: oklch(92% 0.005 130);
+  --color-fg-accent: oklch(75% 0.1 130);
+  --color-fg-accent-hover: oklch(85% 0.1 130);
 
   --font-sans:
     "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -45,11 +43,7 @@
   }
 
   a {
-    @apply inline-flex items-center gap-1;
-  }
-
-  a:hover {
-    @apply text-fg-link-hover underline;
+    @apply inline-flex items-center gap-1 transition-colors hover:text-fg-accent-hover;
   }
 }
 
@@ -63,22 +57,22 @@
   }
 
   .card {
-    @apply block text-fg rounded-lg -m-4 p-4 transition-colors duration-300 ease-in-out cursor-pointer hover:bg-surface;
+    @apply block text-fg rounded-lg -m-4 p-4 transition-colors hover:bg-surface;
   }
 
   .pill {
-    @apply inline-flex items-center rounded-full bg-accent-subtle px-2 py-1 text-sm md:px-4 md:py-2 md:font-medium text-accent-text;
+    @apply inline-flex items-center rounded-full bg-accent-subtle px-2 py-1 text-sm md:px-4 md:py-2 md:font-medium text-fg-accent;
   }
 
   .pill-sm {
-    @apply inline-flex items-center rounded-full bg-accent-subtle px-2 py-1 text-sm text-accent-text;
+    @apply inline-flex items-center rounded-full bg-accent-subtle px-2 py-1 text-sm text-fg-accent;
   }
 
   .navlink {
-    @apply md:text-base no-underline font-semibold self-start py-3 transition-colors text-fg hover:text-accent-hover tracking-wide;
+    @apply md:text-base no-underline font-semibold self-start py-3 transition-colors text-fg hover:text-fg-accent-hover tracking-wide;
   }
 
   .iconlink {
-    @apply hover:text-accent-hover flex items-center gap-2 transition-colors;
+    @apply flex items-center gap-2 transition-colors self-start hover:text-fg-accent-hover;
   }
 }

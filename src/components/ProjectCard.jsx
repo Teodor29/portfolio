@@ -15,12 +15,7 @@ const ProjectCard = ({ project }) => {
         className="w-full object-cover rounded-lg mb-3"
       />
       <h3 className="mb-1">
-        <a
-          href={mainLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-fg-heading"
-        >
+        <a href={mainLink} target="_blank" rel="noopener noreferrer">
           {project.title}
         </a>
       </h3>
