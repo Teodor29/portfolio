@@ -1,8 +1,9 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import type { MouseEvent } from "react"
 import MailButton from "./MailButton"
 
 const Header = () => {
-  const handleScroll = (e, id) => {
+  const handleScroll = (e: MouseEvent<HTMLAnchorElement>, id: string) => {
     e.preventDefault()
     if (id === "about") {
       window.scrollTo({ top: 0, behavior: "smooth" })
@@ -26,7 +27,7 @@ const Header = () => {
               Teodor Lien
             </a>
           </h1>
-          <h2 className="text-xl mb-3">Frontend Developer</h2>
+          <p className="text-xl mb-3">Frontend Developer</p>
         </div>
 
         <div className="hidden md:flex gap-3 md:gap-0 md:flex-col md:mb-8">

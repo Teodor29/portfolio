@@ -4,10 +4,15 @@ import { FaClipboard } from "react-icons/fa"
 import { FaClipboardCheck } from "react-icons/fa"
 import { email } from "../data/portfolioData"
 
-const MailButton = ({ size = 30, label }) => {
+type MailButtonProps = {
+  size?: number
+  label?: string
+}
+
+const MailButton = ({ size = 30, label }: MailButtonProps) => {
   const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
-  const popupRef = useRef(null)
+  const popupRef = useRef<HTMLDivElement>(null)
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(email)
@@ -17,8 +22,8 @@ const MailButton = ({ size = 30, label }) => {
   }
 
   useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (popupRef.current && !popupRef.current.contains(e.target)) {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (popupRef.current && !popupRef.current.contains(e.target as Node)) {
         setOpen(false)
       }
     }

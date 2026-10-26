@@ -1,7 +1,8 @@
 import { FaGithub } from "react-icons/fa"
 import { FiExternalLink } from "react-icons/fi"
+import type { Project } from "../data/portfolioData"
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project }: { project: Project }) => {
   const mainLink = project.link ?? project.github
 
   return (
@@ -15,7 +16,12 @@ const ProjectCard = ({ project }) => {
         className="w-full object-cover rounded-lg mb-3"
       />
       <h3 className="mb-1">
-        <a href={mainLink} target="_blank" rel="noopener noreferrer">
+        <a
+          href={mainLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-inherit after:absolute after:inset-0 after:content-['']"
+        >
           {project.title}
         </a>
       </h3>
@@ -27,7 +33,7 @@ const ProjectCard = ({ project }) => {
           </li>
         ))}
       </ul>
-      <div className="flex gap-4 text-sm">
+      <div className="relative z-10 flex gap-4 text-sm">
         {project.link && (
           <a
             href={project.link}

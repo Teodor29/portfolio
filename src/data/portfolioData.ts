@@ -2,9 +2,24 @@ import adminDashboard from "../assets/admin-dashboard.webp"
 import trainDelayMap from "../assets/train-delay-map.webp"
 import slicr from "../assets/slicr.webp"
 
+export type SkillCategory = {
+  category: string
+  items: string[]
+}
+
+export type Project = {
+  title: string
+  description: string
+  image: string
+  altText: string
+  skills: string[]
+  link?: string
+  github?: string
+}
+
 export const email = "teodor.lien@gmail.com"
 
-export const skills = [
+export const skills: SkillCategory[] = [
   {
     category: "Frontend",
     items: [
@@ -25,13 +40,13 @@ export const skills = [
     items: ["Git", "Vite", "Vitest", "Docker"],
   },
 ]
-export const projects = [
+export const projects: Project[] = [
   {
     title: "Slicr Budget App",
     description:
       "A personal budgeting web app that allows users to set monthly income, create spending categories, and track expenses in real time. Data is stored in localStorage, with a focus on clean component architecture and an intuitive user interface.",
     image: slicr,
-    altText: "Slicr Budget App",
+    altText: "Screenshot of Slicr Budget App",
     skills: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
     link: "https://slicr-budget-app.vercel.app/",
     github: "https://github.com/Teodor29/slicr-budget-app",
@@ -42,7 +57,7 @@ export const projects = [
     description:
       "A real-time web application for monitoring train delays across Sweden. It displays stations and live delay data on an interactive Leaflet map using WebSocket-based updates. Users can save favorite stations for quick access.",
     image: trainDelayMap,
-    altText: "Train Delay Map",
+    altText: "Screenshot of Train Delay Map",
     skills: ["JavaScript", "SCSS", "WebSockets", "Leaflet"],
     link: "https://train-delay.vercel.app/",
     github: "https://github.com/Teodor29/train-delay-map",
@@ -52,7 +67,7 @@ export const projects = [
     description:
       "A full-stack scooter rental system developed as a group project, featuring an admin dashboard, customer web and mobile apps, backend services, and a scooter simulation. I was responsible for developing the frontend applications and also contributed to backend development and Docker-based containerization for local development.",
     image: adminDashboard,
-    altText: "Scooter Rental System",
+    altText: "Screenshot of Scooter Rental System",
     skills: [
       "React",
       "JavaScript",
